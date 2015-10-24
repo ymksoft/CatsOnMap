@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		487E4F8D1BDBA3A4003FA7CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 487E4F8C1BDBA3A4003FA7CD /* main.m */; };
 		487E4F901BDBA3A4003FA7CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 487E4F8F1BDBA3A4003FA7CD /* AppDelegate.m */; };
-		487E4F931BDBA3A4003FA7CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 487E4F921BDBA3A4003FA7CD /* ViewController.m */; };
 		487E4F961BDBA3A4003FA7CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487E4F941BDBA3A4003FA7CD /* Main.storyboard */; };
 		487E4F981BDBA3A4003FA7CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 487E4F971BDBA3A4003FA7CD /* Assets.xcassets */; };
 		487E4F9B1BDBA3A4003FA7CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487E4F991BDBA3A4003FA7CD /* LaunchScreen.storyboard */; };
+		48922D2C1BDBA6D40001C1C3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48922D2B1BDBA6D40001C1C3 /* MapKit.framework */; };
+		48922D2F1BDBA7900001C1C3 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48922D2E1BDBA7900001C1C3 /* MapViewController.m */; settings = {ASSET_TAGS = (); }; };
+		48922D321BDBB25F0001C1C3 /* FlickerFotoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 48922D311BDBB25F0001C1C3 /* FlickerFotoInfo.m */; settings = {ASSET_TAGS = (); }; };
+		B8D5C0718EFA293C7FE4709F /* libPods-CatsOnMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A385B97ABCD140DB0AA8F90D /* libPods-CatsOnMap.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,18 @@
 		487E4F8C1BDBA3A4003FA7CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		487E4F8E1BDBA3A4003FA7CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		487E4F8F1BDBA3A4003FA7CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		487E4F911BDBA3A4003FA7CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		487E4F921BDBA3A4003FA7CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		487E4F951BDBA3A4003FA7CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		487E4F971BDBA3A4003FA7CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		487E4F9A1BDBA3A4003FA7CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		487E4F9C1BDBA3A4003FA7CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48922D2B1BDBA6D40001C1C3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		48922D2D1BDBA7900001C1C3 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		48922D2E1BDBA7900001C1C3 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		48922D301BDBB25F0001C1C3 /* FlickerFotoInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickerFotoInfo.h; sourceTree = "<group>"; };
+		48922D311BDBB25F0001C1C3 /* FlickerFotoInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickerFotoInfo.m; sourceTree = "<group>"; };
+		A385B97ABCD140DB0AA8F90D /* libPods-CatsOnMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CatsOnMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F228158E4C3CF388843C14C3 /* Pods-CatsOnMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatsOnMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatsOnMap/Pods-CatsOnMap.release.xcconfig"; sourceTree = "<group>"; };
+		FD665C055435DBD70F6AF710 /* Pods-CatsOnMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatsOnMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatsOnMap/Pods-CatsOnMap.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +42,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48922D2C1BDBA6D40001C1C3 /* MapKit.framework in Frameworks */,
+				B8D5C0718EFA293C7FE4709F /* libPods-CatsOnMap.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45FBC008E607F6CDB163B60A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48922D2B1BDBA6D40001C1C3 /* MapKit.framework */,
+				A385B97ABCD140DB0AA8F90D /* libPods-CatsOnMap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		487E4F7F1BDBA3A4003FA7CD = {
 			isa = PBXGroup;
 			children = (
 				487E4F8A1BDBA3A4003FA7CD /* CatsOnMap */,
 				487E4F891BDBA3A4003FA7CD /* Products */,
+				F0913AA60F4465E670AE1DBA /* Pods */,
+				45FBC008E607F6CDB163B60A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,9 +82,11 @@
 			children = (
 				487E4F8E1BDBA3A4003FA7CD /* AppDelegate.h */,
 				487E4F8F1BDBA3A4003FA7CD /* AppDelegate.m */,
-				487E4F911BDBA3A4003FA7CD /* ViewController.h */,
-				487E4F921BDBA3A4003FA7CD /* ViewController.m */,
 				487E4F941BDBA3A4003FA7CD /* Main.storyboard */,
+				48922D2D1BDBA7900001C1C3 /* MapViewController.h */,
+				48922D2E1BDBA7900001C1C3 /* MapViewController.m */,
+				48922D301BDBB25F0001C1C3 /* FlickerFotoInfo.h */,
+				48922D311BDBB25F0001C1C3 /* FlickerFotoInfo.m */,
 				487E4F971BDBA3A4003FA7CD /* Assets.xcassets */,
 				487E4F991BDBA3A4003FA7CD /* LaunchScreen.storyboard */,
 				487E4F9C1BDBA3A4003FA7CD /* Info.plist */,
@@ -79,6 +103,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F0913AA60F4465E670AE1DBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD665C055435DBD70F6AF710 /* Pods-CatsOnMap.debug.xcconfig */,
+				F228158E4C3CF388843C14C3 /* Pods-CatsOnMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 487E4F9F1BDBA3A4003FA7CD /* Build configuration list for PBXNativeTarget "CatsOnMap" */;
 			buildPhases = (
+				02C30B8BF71BDBDAF6054500 /* Check Pods Manifest.lock */,
 				487E4F841BDBA3A4003FA7CD /* Sources */,
 				487E4F851BDBA3A4003FA7CD /* Frameworks */,
 				487E4F861BDBA3A4003FA7CD /* Resources */,
+				003372B64C87EFB768EA95D3 /* Embed Pods Frameworks */,
+				FEDE8D41AAE7068DE1E1B4AB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +146,11 @@
 				TargetAttributes = {
 					487E4F871BDBA3A4003FA7CD = {
 						CreatedOnToolsVersion = 7.0.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -144,12 +185,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		003372B64C87EFB768EA95D3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatsOnMap/Pods-CatsOnMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		02C30B8BF71BDBDAF6054500 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FEDE8D41AAE7068DE1E1B4AB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatsOnMap/Pods-CatsOnMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		487E4F841BDBA3A4003FA7CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				487E4F931BDBA3A4003FA7CD /* ViewController.m in Sources */,
+				48922D321BDBB25F0001C1C3 /* FlickerFotoInfo.m in Sources */,
+				48922D2F1BDBA7900001C1C3 /* MapViewController.m in Sources */,
 				487E4F901BDBA3A4003FA7CD /* AppDelegate.m in Sources */,
 				487E4F8D1BDBA3A4003FA7CD /* main.m in Sources */,
 			);
@@ -259,6 +349,7 @@
 		};
 		487E4FA01BDBA3A4003FA7CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD665C055435DBD70F6AF710 /* Pods-CatsOnMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CatsOnMap/Info.plist;
@@ -270,6 +361,7 @@
 		};
 		487E4FA11BDBA3A4003FA7CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F228158E4C3CF388843C14C3 /* Pods-CatsOnMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CatsOnMap/Info.plist;
@@ -298,6 +390,7 @@
 				487E4FA11BDBA3A4003FA7CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
